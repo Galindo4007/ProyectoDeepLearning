@@ -1,1 +1,8 @@
 # ProyectoDeepLearning
+Se ha utilizado lo que es un dataset de la gente entrenando en un gimnasio, esto para predecir el nivel de experiencia de cada usuario, según sus tipos de entrenamiento. El dataset se saco de Kaggle en la siguiente liga: https://www.kaggle.com/datasets/valakhorasani/gym-members-exercise-dataset.
+
+La información original del dataset, antes de realizar la limpieza, incluía datos personales como edad, género, peso y estatura. Además, contenía diversas métricas relacionadas con el entrenamiento, como pulsaciones máximas, promedio de pulsaciones, pulsaciones en reposo, duración de las sesiones de entrenamiento en horas, calorías quemadas, tipo de entrenamiento, porcentaje de grasa corporal, ingesta de agua en litros, frecuencia semanal de entrenamiento, nivel de experiencia y el índice de masa corporal (IMC).
+
+El objetivo es predecir la experiencia de los usuarios en en gimnasio, se seleccionaron únicamente las características relacionadas con su rendimiento y comportamiento durante el entrenamiento. Estas son pulsaciones máximas y en reposo, la duración de la sesión, el tipo de entrenamiento y la frecuencia semanal de ejercicio. Se aplicó técnicas codficación, como también se normalizo los datos para que el modelo tuviera mejores predicciones.
+
+El nivel de experiencia se clasifica en tres categorías: 1 (principiante), 2 (intermedio) y 3 (avanzado). Para el modelo, se utilizó una red neuronal de capas densas (Dense Layer) en una configuración de clasificación. Se ajustaron los hiperparámetros para optimizar el rendimiento del modelo, con el fin de obtener la mejor precisión posible en la predicción.
